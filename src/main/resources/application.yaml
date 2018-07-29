@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: robot-parts
+  datasource:
+    username: postgres
+    password: ####
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=Robots
+    platform: postgres
+  jpa:
+    show-sql: true
+  liquibase:
+    default-schema: robots
+
+server:
+  port: 3700
