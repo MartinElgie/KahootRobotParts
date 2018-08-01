@@ -10,10 +10,10 @@ import kahoot.services.RobotPartServiceImpl;
 
 @SpringBootApplication
 @EnableJpaRepositories("kahoot.schema.repositories")
-public class RobotPartApplication {
+public class InventoryServiceApplication {
 
     public static void main(String... args) {
-        SpringApplication.run(RobotPartApplication.class, args);
+        SpringApplication.run(InventoryServiceApplication.class, args);
     }
 
     @Bean

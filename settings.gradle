@@ -1,2 +1,5 @@
 rootProject.name = 'KahootRobotParts'
+include 'RobotPartsServer'
+include 'RobotPartsClient'
+include 'RobotInventoryCommons'
 
